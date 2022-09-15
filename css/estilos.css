@@ -14,6 +14,7 @@ body{
     background-color: #000000;
 }
 
+
 .titulo{
     text-align: center;
     line-height: 50px;
@@ -129,6 +130,7 @@ a:hover{
 
  .foto1{
     grid-area: foto1;
+
 }
 
 .foto2{
@@ -469,3 +471,64 @@ a:hover{
   .foto9{
     grid-area: foto9;
   }
+
+/* Intento de transicion */
+
+  /* .foto1{
+    filter: grayscale(100%);
+    transition: all 2s;
+  }
+
+  .foto1 img:hover{
+    filter: none;
+  }
+
+  .foto2{
+    filter: grayscale(100%);
+    transition: all 2s;
+  }
+
+  .foto2 img:hover{
+    filter: none;
+  }
+
+  .foto3{
+    filter: grayscale(100%);
+    transition: all 2s;
+  }
+
+  .foto3 img:hover{
+    filter: none;
+  } */
+@keyframes aparecer {
+  0%{opacity: 100%;}
+
+  50%{opacity: 50%;
+  width: 400px;}
+
+  100%{opacity: 100%;}
+}
+
+.foto1{
+  animation-name: aparecer;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes efecto {
+  0%{color: blue;}
+
+  50%{color: yellow;}
+  
+  100%{color: green;}
+}
+
+.efecto{
+  animation-name: efecto;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
