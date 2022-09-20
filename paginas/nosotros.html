@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="../multimedia/Logo.png" type="image/x-icon">
 </head>
 
-<body class="paginas">
+<body>
   
   <main>
 
@@ -45,39 +45,38 @@
      
 </main>
 
+
+
   <h1 class="titulo">CONTACTO</h1> 
-  <section></section><!-- Va lo mas importante -->
-  <article></article> <!-- Lo secundario, imagenes y el texto -->
-  
-  <footer>
+
+  <div class="alert alert-danger" role="alert">
+    Si no escriben bien su Email, no podremos validar la informacion!
+   </div>
+   
+    <section class="container-fluid"> 
+      <div class="row">
+      <article class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Deje su opinion de la pagina aqui!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      </article>
+      <article class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39633.52690303577!2d-69.207855!3d-51.621461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f2e0c8f190b83d8!2sClub%20Deportivo%20Hispano%20Americano!5e0!3m2!1ses!2sar!4v1661208245550!5m2!1ses!2sar" max-width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </article>
+    </div>
+    </section> 
     
-    <h3>Cuentenos su experencia en nuestra pagina web!</h3>
-    <form action="">
-    <label for="nombre">Nombre:</label> 
-  <label for="nombre">Nombre:</label> 
-    <label for="nombre">Nombre:</label> 
-    <input type="text" name="nombre"> 
-  <input type="text" name="nombre"> 
-    <input type="text" name="nombre"> 
-
-    <label for="correo">Correo:</label>
-    <input type="email" name="correo"> 
-  <input type="email" name="correo"> 
-    <input type="email" name="correo"> 
-
-    <!--  <label for="contraseña">Contraseña:</label>
-    <input type="password" name="contraseña">  Contraseña -->
-
-    <label for="mensaje"></label> 
-  <label for="mensaje"></label> 
-    <label for="mensaje"></label> 
-    <textarea name="mensaje" id="" cols="20" rows="10"></textarea>
-    <input type="submit" value="Enviar datos"> <!-- Envia los datos -->
-
-    <input type="reset" value="Restablecer"> <!-- Resetea el formulario -->
-
-      <h4 class="subtitulo">Aca nos podes encontrar</h4>
-      <div class="maps" class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39633.52690303577!2d-69.207855!3d-51.621461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f2e0c8f190b83d8!2sClub%20Deportivo%20Hispano%20Americano!5e0!3m2!1ses!2sar!4v1661208245550!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+  
+    
+    <h3 class="subtitulo">Esperamos que hayan podido disfrutar de nuestra pagina web <hr>
+    Saludos!</h3>
+  
+   <footer>
       <p class="subtitulo">© Copyright Diego Koch</p>
         <!-- target _blank abrir este enlace en otra pestaña -->
   </footer>
