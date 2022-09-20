@@ -92,9 +92,6 @@ body{
 }
 
 
-a:hover{
-    color: blue;
-}
 
     /* section{
     display: inline-block;
@@ -154,7 +151,7 @@ a:hover{
 
 /* media queires index  */
 /* celular */
-
+/* 
 @media  (max-width: 500px) {
     .main-flex{
         display: inline-block;
@@ -221,11 +218,11 @@ a:hover{
         text-align: left;
     }
 }
-
+ */
 /* media queire tablet  */
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .main-flex{
         display: inline-block;
         justify-content: space-between;
@@ -287,8 +284,7 @@ a:hover{
         font-size: 20px;
     }
 }
-
-
+ */
 
 
 
@@ -472,31 +468,12 @@ a:hover{
     grid-area: foto9;
   }
 
-/* Intento de transicion */
+.enlaces a{
+  color: whitesmoke;
+  background-color: red;
+}
 
-  /* .foto1{
-    filter: grayscale(100%);
-    transition: all 2s;
-  }
+.enlaces{
+  background-color: #000000;
+}
 
-  .foto1 img:hover{
-    filter: none;
-  }
-
-  .foto2{
-    filter: grayscale(100%);
-    transition: all 2s;
-  }
-
-  .foto2 img:hover{
-    filter: none;
-  }
-
-  .foto3{
-    filter: grayscale(100%);
-    transition: all 2s;
-  }
-
-  .foto3 img:hover{
-    filter: none;
-  } */
