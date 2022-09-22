@@ -482,3 +482,7 @@ body{
   height: auto;
   margin: 1rem;
 }
+
+.navbar-toggler{
+  background-color: white;
+}
