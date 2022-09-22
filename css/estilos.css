@@ -416,6 +416,8 @@ body{
   }
   }
 
+  
+
  
 /* Grid accesorios */
 
@@ -508,3 +510,11 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
 }
+
+.texto{
+  background-color: antiquewhite;
+  color: #760606 ;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
