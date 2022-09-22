@@ -486,3 +486,25 @@ body{
 .navbar-toggler{
   background-color: white;
 }
+
+@keyframes aparecer {
+  0%{
+    
+    opacity: 100%;
+  }
+
+  50%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+.animacion{
+  animation-name: aparecer;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
