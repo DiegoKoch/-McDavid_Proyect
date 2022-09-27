@@ -1,0 +1,129 @@
+@import "mediaqueries";
+@import "index";
+@import "zapatillas";
+@import "accesorios";
+@import "historia";
+@import "contacto";
+
+
+*{ margin: 0;
+
+    padding: 0;
+    }
+
+html{
+    font-size: 62,5% ; /* el 62,5 me sirve para que lea la medida del rem 1 rem = 10 px */
+}
+    
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        ul li{
+            display: inline-block;
+            text-decoration: none;
+            font-style: italic;
+            font-size: 20px;
+            font-weight: 600;
+            flex-wrap: wrap;
+        }
+            a {
+                color: whitesmoke;
+                text-decoration: none;
+                margin-right: 10px;
+            }
+}
+
+
+.enlaces{
+    background-color: #000000;
+    a{
+    color: whitesmoke;
+    background-color: red;
+    }
+}
+  
+.historia{
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+  }
+  
+  .navbar-toggler{
+    background-color: white;
+  }
+  
+  @keyframes aparecer {
+    0%{
+      
+      opacity: 100%;
+    }
+  
+    50%{
+      opacity: 0%;
+    }
+    100%{
+      opacity: 100%;
+    }
+  }
+  
+
+  .animacion{
+    animation-name: aparecer;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
+  
+  .texto{
+    background-color: antiquewhite;
+    color: #760606 ;
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+  
+  .formulario{
+    color: white;
+  }
+
+
+
+.titulo2{
+    text-align: center;
+    color: #FFFD82;
+    background-color: #FF9B71;
+    line-height: 50px;
+    font-style: italic;
+}
+
+ 
+.subtitulo2{
+    background-color: #2B3A67;
+    text-align: center;
+    color: white;
+}
+
+
+
+.paginas{
+    background-color: #62998B
+}
+
+#fondo{
+    background-image: url(../multimedia/Fondoo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+#fondoAccesorios{
+    background-image: url(../multimedia/FondoAccesorios.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

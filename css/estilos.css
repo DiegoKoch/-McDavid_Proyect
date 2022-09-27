@@ -1,20 +1,20 @@
-
+/* 
 *{ margin: 0;
 
     padding: 0;
     }
 
 html{
-    font-size: 62,5% ; /* el 62,5 me sirve para que lea la medida del rem 1 rem = 10 px */
+    font-size: 62,5% ;  el 62,5 me sirve para que lea la medida del rem 1 rem = 10 px 
 }
     
 
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #000000;
-}
+} */
 
-
+/* 
 .titulo{
     text-align: center;
     line-height: 50px;
@@ -69,8 +69,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.main-flex{
+ */
+/* .main-flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -90,7 +90,7 @@ body{
     text-decoration: none;
     margin-right: 10px;
 }
-
+ */
 
 
     /* section{
@@ -99,7 +99,7 @@ body{
     } */
 /* Grid index */
 
-.grid-Index{
+/* .grid-Index{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
@@ -146,7 +146,6 @@ body{
 .grid-Index footer{
     grid-area: footer;
     /* background-color: aqua; */
-}
 
 
 /* media queires index  */
@@ -348,7 +347,7 @@ body{
     padding: 10px;
   }
 
-  @media (max-width: 500px) {
+ /*  @media (max-width: 500px) {
     .nav-zapatillas{
         display: inline-block;
         justify-content: space-between;
@@ -415,7 +414,7 @@ body{
     display:none;
   }
   }
-
+ */
   
 
  
@@ -469,7 +468,7 @@ body{
   .foto9{
     grid-area: foto9;
   }
-
+/* 
 .enlaces a{
   color: whitesmoke;
   background-color: red;
@@ -478,8 +477,8 @@ body{
 .enlaces{
   background-color: #000000;
 }
-
-.historia{
+ */
+/* .historia{
   max-width: 100%;
   height: auto;
   margin: 1rem;
@@ -488,8 +487,10 @@ body{
 .navbar-toggler{
   background-color: white;
 }
+ */
 
-@keyframes aparecer {
+ 
+/* @keyframes aparecer {
   0%{
     
     opacity: 100%;
@@ -518,3 +519,6 @@ body{
   margin: 0.5rem;
 }
 
+.formulario{
+  color: white;
+} */
