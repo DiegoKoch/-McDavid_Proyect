@@ -1,13 +1,21 @@
 /* MAPS SON VARIABLES CON COLECCION DE VARIABLES */
 /* LO PRIMERO QUE HAY QUE HACER ES DECLARAR EL MAPA */
 .titulo, .subtitulo {
-  background-color: #A20D0D;
+  color: #000;
+  background-color: #760606;
   justify-content: center;
   font-size: 30px;
-  padding: 1rem; }
+  padding: 1rem;
+  font-style: italic; }
 
 .subtitulo {
-  font-size: 20px; }
+  background-color: #2B3A67;
+  font-size: 20px;
+  list-style-type: square; }
+
+.imagen {
+  width: 360px;
+  height: 170px; }
 
 @media (max-width: 500px) {
   .nav-zapatillas {
@@ -27,7 +35,10 @@
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
-    grid-template-areas: "foto1"  "foto2" "foto3"  "foto4"; }
+    grid-template-areas: "foto1" 
+ "foto2"
+ "foto3" 
+ "foto4"; }
   img {
     height: auto;
     width: auto; }
@@ -52,19 +63,9 @@
   .foto8 {
     display: none; } }
 
-.titulo, .subtitulo {
-  text-align: center;
-  line-height: 50px;
-  color: red;
-  background-color: black;
-  font-style: italic; }
-
-.subtitulo {
-  color: white;
-  text-align: center;
-  list-style-type: square;
-  background-color: #760606;
-  padding-left: 10px; }
+.enlaces a {
+  color: whitesmoke;
+  background-color: #2B3A67; }
 
 .redes {
   margin-top: 10px;
@@ -73,7 +74,11 @@
 .grid-Index {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto1 foto2 foto3" "video video video" "footer footer footer"; }
+  grid-template-areas: "titulo titulo titulo"
+ "subtitulo subtitulo subtitulo"
+ "foto1 foto2 foto3"
+ "video video video"
+ "footer footer footer"; }
 
 .grid-Index h1 {
   grid-area: titulo;
@@ -131,12 +136,6 @@ body {
     text-decoration: none;
     margin-right: 10px; }
 
-.enlaces {
-  background-color: #000000; }
-  .enlaces a {
-    color: whitesmoke;
-    background-color: red; }
-
 .historia {
   max-width: 100%;
   height: auto;
@@ -153,13 +152,14 @@ body {
   100% {
     opacity: 100%; } }
 
-.animacion {
-  animation-name: aparecer;
-  animation-duration: 6s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in; }
-
+/* 
+  .animacion{
+    animation-name: aparecer;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  } */
 .texto {
   background-color: antiquewhite;
   color: #760606;

@@ -10,13 +10,13 @@ $colores:(
  $estilos:(
     alineacion: center,
     fuente: 30px,
-    padding: 0,5rem,
+    padding: 1rem,
     estilo:italic
  );
 
 .titulo{
-    color: map-get($map: $colores, $key: primario);
-    background-color: map-get($map: $colores, $key:terciario );
+    color: map-get($map: $colores, $key: terciario);
+    background-color: map-get($map: $colores, $key:primario );
     justify-content: map-get($map: $estilos, $key:alineacion );
     font-size: map-get($map: $estilos, $key:fuente );
     padding: map-get($map: $estilos, $key: padding );
@@ -25,12 +25,18 @@ $colores:(
 
 .subtitulo{
    @extend .titulo;
+   background-color: map-get($map: $colores, $key: secundario);
    font-size: 20px;
    list-style-type: square;
 }
 
-.footer{
-    @extend .titulo;
-    background-color: map-get($map: $colores, $key: terciario);
-        
-    }
+@mixin sizes ($ancho , $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+
+
+.imagen{
+    @include sizes(360px , 170px)
+}
