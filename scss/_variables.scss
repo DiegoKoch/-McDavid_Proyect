@@ -2,7 +2,7 @@
 /* LO PRIMERO QUE HAY QUE HACER ES DECLARAR EL MAPA */
 
 $colores:(
-    primario: #A20D0D,
+    primario: #760606,
     secundario: #2B3A67,
     terciario: #000
 );
@@ -10,19 +10,27 @@ $colores:(
  $estilos:(
     alineacion: center,
     fuente: 30px,
-    padding: 1rem
+    padding: 0,5rem,
+    estilo:italic
  );
 
 .titulo{
-    background-color: map-get($map: $colores, $key:primario );
+    color: map-get($map: $colores, $key: primario);
+    background-color: map-get($map: $colores, $key:terciario );
     justify-content: map-get($map: $estilos, $key:alineacion );
     font-size: map-get($map: $estilos, $key:fuente );
     padding: map-get($map: $estilos, $key: padding );
+    font-style: map-get($map: $estilos, $key: estilo)
 }
 
 .subtitulo{
-    background-color: map-get($map: $colores, $key: secundario );
-    justify-content: map-get($map: $estilos, $key:alineacion );
-    font-size: 20px;
-    padding: map-get($map: $estilos, $key: padding );
+   @extend .titulo;
+   font-size: 20px;
+   list-style-type: square;
 }
+
+.footer{
+    @extend .titulo;
+    background-color: map-get($map: $colores, $key: terciario);
+        
+    }
