@@ -1,27 +1,28 @@
 /* MAPS SON VARIABLES CON COLECCION DE VARIABLES */
 /* LO PRIMERO QUE HAY QUE HACER ES DECLARAR EL MAPA */
 
-
-$redes:(
-    facebook: blue,
-    instagram: violet,
-    whatsapp: green
-);
-
-@each $red , $color in redes {
-    .btn--#{$red}{
-        background-color: $color;
-    }
-}
-
 $colores:(
     primario: #A20D0D,
-    secundario: #760606,
-    terciario: #FFFD82
+    secundario: #2B3A67,
+    terciario: #000
 );
 
-@each $colors , $color in colores {
-    .#{$colors}{
-        background-color: $color;
-    }
+ $estilos:(
+    alineacion: center,
+    fuente: 30px,
+    padding: 1rem
+ );
+
+.titulo{
+    background-color: map-get($map: $colores, $key:primario );
+    justify-content: map-get($map: $estilos, $key:alineacion );
+    font-size: map-get($map: $estilos, $key:fuente );
+    padding: map-get($map: $estilos, $key: padding );
+}
+
+.subtitulo{
+    background-color: map-get($map: $colores, $key: secundario );
+    justify-content: map-get($map: $estilos, $key:alineacion );
+    font-size: 20px;
+    padding: map-get($map: $estilos, $key: padding );
 }
