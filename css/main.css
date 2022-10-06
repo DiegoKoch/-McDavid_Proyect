@@ -35,10 +35,7 @@
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
-    grid-template-areas: "foto1" 
- "foto2"
- "foto3" 
- "foto4"; }
+    grid-template-areas: "foto1"  "foto2" "foto3"  "foto4"; }
   img {
     height: auto;
     width: auto; }
@@ -63,6 +60,41 @@
   .foto8 {
     display: none; } }
 
+/* Media del index celular */
+@media (max-width: 574px) {
+  .video {
+    width: 100%;
+    height: 200px; }
+  .imagen {
+    height: 150px;
+    width: auto; }
+  .titulo, .subtitulo {
+    font-size: 15px; } }
+
+/* Media del index tablet */
+@media (max-width: 768px) {
+  .imagen {
+    justify-content: center; } }
+
+/* Media de zapatillas */
+@media (max-width: 768px) {
+  .padre {
+    flex-direction: column;
+    justify-content: space-evenly; } }
+
+/* nostros */
+@media (max-width: 574px) {
+  .mapa {
+    height: 100%;
+    width: 100%;
+    margin: 5px; } }
+
+@media (max-width: 768px) {
+  .mapa {
+    height: 180px;
+    width: 300px;
+    margin: 1rem; } }
+
 .enlaces a {
   color: whitesmoke;
   background-color: #2B3A67; }
@@ -74,11 +106,7 @@
 .grid-Index {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "titulo titulo titulo"
- "subtitulo subtitulo subtitulo"
- "foto1 foto2 foto3"
- "video video video"
- "footer footer footer"; }
+  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto1 foto2 foto3" "video video video" "footer footer footer"; }
 
 .grid-Index h1 {
   grid-area: titulo;
@@ -171,10 +199,5 @@ body {
 
 #fondo {
   background-image: url(../multimedia/Fondoo.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-#fondoAccesorios {
-  background-image: url(../multimedia/FondoAccesorios.jpeg);
   background-repeat: no-repeat;
   background-size: cover; }
