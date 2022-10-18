@@ -1,5 +1,13 @@
 /* MAPS SON VARIABLES CON COLECCION DE VARIABLES */
 /* LO PRIMERO QUE HAY QUE HACER ES DECLARAR EL MAPA */
+$sizes:(
+    celular: 574px,
+    tablet: 768px
+);
+
+/* $carousel-control-color:             $white; */
+
+$enable-shadows: true;
 
 $colores:(
     primario: #760606,
@@ -40,3 +48,4 @@ $colores:(
 .imagen{
     @include sizes(360px , 170px)
 }
+

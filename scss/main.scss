@@ -3,7 +3,6 @@
 @import "index";
 
 
-
 *{ margin: 0;
 
     padding: 0;
@@ -62,15 +61,7 @@ body{
     }
   }
   
-/* 
-  .animacion{
-    animation-name: aparecer;
-    animation-duration: 6s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-  } */
-  
+
   .texto{
     background-color: antiquewhite;
     color: #760606 ;
@@ -82,11 +73,12 @@ body{
     color: white;
   }
 
-
-#fondo{
-    background-image: url(../multimedia/Fondoo.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.logo{
+  background-color: black;
 }
- 
+
+.slide{
+  align-items: center;
+}
+
 

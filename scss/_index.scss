@@ -4,6 +4,9 @@
     a{
     color: whitesmoke;
     background-color: #2B3A67;
+    border-top-left-radius: radius;
+    border-top-left-radius: 40PX 40px;
+    border-color: black;
     }
 }
 
@@ -12,7 +15,7 @@
     padding: 5px;
 }
 
-.grid-Index{
+/* .grid-Index{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
@@ -58,6 +61,7 @@
 
 .grid-Index footer{
     grid-area: footer;
-    /* background-color: aqua; */
+    /* background-color: aqua; 
 }
 
+ */
