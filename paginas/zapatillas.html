@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head> <!-- Links -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,10 +15,21 @@
 </head>
 
     <body>
-
+      
+           <!-- busqueda precaria 
+            <main class="mainZapatillas">
+                 menu desplegable 
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>¿Que marca estas buscando?</option>
+                    <option value="Nike">Nike</option>
+                    <option value="Adidas">Adidas</option>
+                    <option value="Under Armour">Under Armour</option>
+                    <input type="submit" value="Buscar">
+                  </select>
+            </main> -->
    
         
-        <main>
+        <main> <!-- Enlaces -->
 
             <nav class="navbar navbar-expand-lg enlaces">
                 <div class="container-fluid">
@@ -45,47 +56,98 @@
                 </div>
               </nav>
 
-             
+              <h1 class="titulo">ZAPATILLAS</h1>
         </main>
-
-            <h1 class="titulo animate__animated animate__bounce">ZAPATILLAS</h1>
-            <main class="mainZapatillas">
-               
-
-                <!-- menu desplegable -->
-               
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>¿Que marca estas buscando?</option>
-                    <option value="Nike">Nike</option>
-                    <option value="Adidas">Adidas</option>
-                    <option value="Under Armour">Under Armour</option>
-                    <input type="submit" value="Buscar">
-                  </select>
-                    
-
+        
             
-            </main>
 
-            <section>
-            <div class="container">
-                <div class="row ">
-                  <div class="img-fluid col-md-3 mt-1 mb-1 mx-1 imagen"><img src="../multimedia/Z1 modificada.jpg" alt="Zapatillas Adidas"></div>
-                  <div class="img-fluid col-md-3 mt-1 mb-1 mx-1 imagen"><img src="../multimedia/z2 modificada.jpg" alt="Zapatillas Nike"></div>
-                  <div class="img-fluid col-md-3 mt-1 mb-1 mx-1 imagen"><img src="../multimedia/z3 modificada.jpg" alt="Zapatillas Nike"></div>
-                  <div class="img-fluid col-md-3 mt-1 mb-1 mx-1 imagen"><img src="../multimedia/z4 modificada.jpg" alt="Zapatillas Under Armour"></div>
-                </div>
-              </div>
 
-              <div class="container ">
-                <div class="row ">
-                  <div class="img-fluid col-md-3 mt-1 mb-1 mx-1 imagen"><img src="../multimedia/z5 modificada.jpg" alt="Zapatillas Adidas"></div>
-                  <div class="img-fluid col-md-3 mt-1 mb-1 mx-1 imagen"><img src="../multimedia/z6 modificada.jpg" alt="Zapatillas Nike"></div>
-                  <div class="img-fluid col-md-3 mt-1 mb-1 mx-1 imagen"><img src="../multimedia/z7 modificada.jpg" alt="Zapatillas Under Armour"></div>
-                  <div class="img-fluid col-md-3 mt-1 mb-1 mx-1 imagen"><img src="../multimedia/z8 modificada.jpg" alt="Zapatillas Under Armour"></div>
-                </div>
-              </div>
-            </section>
-
+                         <!-- INTENTO GRID  -->
+          <main class="container vh-100 d-flex  justify-content-center">
+            <div class="row m-2 p-2 ">
+              <!-- Primer card -->
+                <article class="card col-12 col-lg-4 " style="width: 18rem;">
+                  <img src="../multimedia/Z1 modificada.jpg" class="card-img-top border border-secondary border-3" alt="Zapatilla">
+                    <div class="card-body bg-danger">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+              <!-- Segunda card -->
+                <article class="card" style="width: 18rem;">
+                  <img src="../multimedia/zapa 2 nike.jpg" class="card-img-top border border-secondary border-3 m-2 p-2" alt="...">
+                    <div class="card-body bg-secondary">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+              <!-- Tercer card -->
+                <article class="card" style="width: 18rem;">
+                  <img src="../multimedia/z3 modificada.jpg" class="card-img-top border border-secondary border-3 m-2 p-2" alt="...">
+                    <div class="card-body bg-success">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+              <!-- Cuarta card -->
+                <article class="card col-12 col-lg-4 " style="width: 18rem;">
+                  <img src="../multimedia/" class="card-img-top border border-secondary border-3" alt="Zapatilla">
+                    <div class="card-body bg-danger">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+              <!-- Quinta card -->
+                <article class="card" style="width: 18rem;">
+                  <img src="../multimedia/z5 modificada.jpg" class="card-img-top border border-secondary border-3 m-2 p-2" alt="...">
+                    <div class="card-body bg-secondary">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+                <!-- Sexta card -->
+                <article class="card" style="width: 18rem;">
+                  <img src="../multimedia/z" class="card-img-top border border-secondary border-3 m-2 p-2" alt="...">
+                    <div class="card-body bg-success">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+                <!-- Septima card -->
+                <article class="card col-12 col-lg-4 " style="width: 18rem;">
+                  <img src="../multimedia/z7 modificada.jpg" class="card-img-top border border-secondary border-3" alt="Zapatilla">
+                    <div class="card-body bg-danger">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+              <!-- Octava card -->
+                <article class="card" style="width: 18rem;">
+                  <img src="../multimedia/" class="card-img-top border border-secondary border-3 m-2 p-2" alt="...">
+                    <div class="card-body bg-secondary">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+                <!-- Novena card -->
+                <article class="card" style="width: 18rem;">
+                  <img src="../multimedia/" class="card-img-top border border-secondary border-3 m-2 p-2" alt="...">
+                    <div class="card-body bg-success">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </article>
+            </div>
+          </main>
 
 
 
