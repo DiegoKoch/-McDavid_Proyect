@@ -1,0 +1,167 @@
+* [33mcommit a966fb28dd6444e6c7b1cc6983b7f99a47e641df[m[33m ([m[1;36mHEAD -> [m[1;32mgrillanueva[m[33m)[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Wed Oct 19 12:53:43 2022 -0300
+[31m|[m 
+[31m|[m     Trabajando en la grilla en la rama
+[31m|[m 
+* [33mcommit 8b90f1ccaaa2f735df5487063e8d3dff672d658a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Wed Oct 19 11:31:42 2022 -0300
+[31m|[m 
+[31m|[m     modifique las img, agregue card accesorios, modifique borde del logo
+[31m|[m 
+* [33mcommit ee89465cbda5ca03e80d23e91d30bad2d0b9db73[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 18 21:06:30 2022 -0300
+[31m|[m 
+[31m|[m     agregue las cards
+[31m|[m 
+* [33mcommit f263a728f579bce03ef392fd685de7a16a9909d9[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 18 20:38:34 2022 -0300
+[31m|[m 
+[31m|[m     Haciendo una grilla con cards
+[31m|[m 
+* [33mcommit 17e2bdfaae78968057b0932206532e0d9c91a300[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 18 12:53:26 2022 -0300
+[31m|[m 
+[31m|[m     Estaba haciendo una grilla
+[31m|[m 
+* [33mcommit 5b41694e087766e91345fdf7b0b637561c924af9[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 18 12:24:24 2022 -0300
+[31m|[m 
+[31m|[m     agregue comentarios en el index
+[31m|[m 
+* [33mcommit fa3d0183879e074912301670e6fc6d1c6fe93899[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Thu Oct 6 20:39:41 2022 -0300
+[31m|[m 
+[31m|[m     Agregue media queire, y cambie fotos
+[31m|[m 
+* [33mcommit dfb21089c4e6344cebd34c8042abd25f0c7c74af[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 4 20:22:53 2022 -0300
+[31m|[m 
+[31m|[m      termine el trabajo de seo, falta corregir imagenes
+[31m|[m 
+* [33mcommit 4b83c48104ffb09a33ddbf6049cb433c0a740e21[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 4 19:43:37 2022 -0300
+[31m|[m 
+[31m|[m     Agregue cambios y no se pasaron, voy a cerrar y volver a abrir
+[31m|[m 
+* [33mcommit 7e2a97110f48a1a3d93cee9307be1a2723d11763[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 4 19:24:32 2022 -0300
+[31m|[m 
+[31m|[m     pude agregar el map
+[31m|[m 
+* [33mcommit d057d010a767c1c7e9f17af57e137e6396313092[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 4 18:46:22 2022 -0300
+[31m|[m 
+[31m|[m     Voy a reiniciar la consola, porque no se me actualiza el mapa
+[31m|[m 
+* [33mcommit 1ac9ae44689be7749d5b08391fabf8da77a999d3[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Oct 4 18:05:37 2022 -0300
+[31m|[m 
+[31m|[m     cambie el idioma, e intente crear un mapa, agregue un poco de seo
+[31m|[m 
+* [33mcommit 3566697543b98ea920ee00257ec6acb02a47b1b3[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Sep 27 20:31:22 2022 -0300
+[31m|[m 
+[31m|[m     Sigue todo roto
+[31m|[m 
+* [33mcommit 8da2d6c4cabfff270997175dd28a3ac66b562233[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Sep 27 19:55:23 2022 -0300
+[31m|[m 
+[31m|[m     agregue sas y se rompio too
+[31m|[m 
+* [33mcommit 15e6d828f88bbc062c4db02e4d5069c6bb1cb9da[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Thu Sep 22 10:29:53 2022 -0300
+[31m|[m 
+[31m|[m     agregue clase de img fluid a las img
+[31m|[m 
+* [33mcommit ce49e349b8436226999acc72a2eea8ce7e7cee9a[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Thu Sep 22 10:10:42 2022 -0300
+[31m|[m 
+[31m|[m     perdi mi rama
+[31m|[m 
+* [33mcommit 1e29d90d973313794ea699d4d904573f7eeed8ba[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Thu Sep 22 08:46:54 2022 -0300
+[31m|[m 
+[31m|[m     Corregi mi nav bar y agregue wp fb e ig a mis html
+[31m|[m 
+* [33mcommit 2cc7dcbcfdbac8bc1c105ae26b7125742f3d322a[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Sep 20 20:44:31 2022 -0300
+[31m|[m 
+[31m|[m     Agregue un poco de boots a zapatillas
+[31m|[m 
+* [33mcommit 680a36b786c80059888fcc818649265e3d417ef1[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Sep 20 20:24:09 2022 -0300
+[31m|[m 
+[31m|[m     Ahi agregue boots a mis html, tengo que arreglar accesorios
+[31m|[m 
+* [33mcommit 87d10259955f577d48440799af6d1d0874480ee7[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Sep 20 19:51:27 2022 -0300
+[31m|[m 
+[31m|[m     Agregue bootstrap a nosotros y ahora estoy por hacer cambios en acc
+[31m|[m 
+* [33mcommit 6ac7cb298497a2344bf94ed7d303ae86269be33b[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Sep 20 18:58:35 2022 -0300
+[31m|[m 
+[31m|[m     pude linkear bien los enlaces
+[31m|[m 
+* [33mcommit 95d33ed21c7219ebae5d4c010b6e8a6b6aaf49aa[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Sep 20 18:57:50 2022 -0300
+[31m|[m 
+[31m|[m     Agregue bootstrap al index
+[31m|[m 
+* [33mcommit 6cf79047cf6b538addba2b16c3da62e89f176ce7[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Tue Sep 20 17:00:28 2022 -0300
+[31m|[m 
+[31m|[m     Agregue menu hamburguesa a los html
+[31m|[m 
+* [33mcommit 34dc18ecd35e3b94ea780b7447f989d97c243e23[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Fri Sep 16 12:24:57 2022 -0300
+[31m|[m 
+[31m|[m     Se rompio la pagina
+[31m|[m 
+* [33mcommit a5183b00a6b7dd49d761e3b574115a2cbd4783ed[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Fri Sep 16 12:05:45 2022 -0300
+[31m|[m 
+[31m|[m     Agregando navbar al index
+[31m|[m 
+* [33mcommit dfeb1865df72b59bdbb80c929cc2f588f3ac4e22[m[33m ([m[1;32mAgregandoTransformaciones[m[33m)[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Thu Sep 15 18:37:00 2022 -0300
+[31m|[m 
+[31m|[m     Agregue transicion al index
+[31m|[m 
+* [33mcommit 35aa33638af496f4e049b63be7eebb4caff7733a[m
+[31m|[m Author: Diego Koch <d-koch@hotmail.com>
+[31m|[m Date:   Thu Sep 15 12:13:38 2022 -0300
+[31m|[m 
+[31m|[m     Primer commit
+[31m|[m 
+* [33mcommit 070fa803433cb894373514d0cfdee6b2f5a5ecff[m
+  Author: Diego Koch <d-koch@hotmail.com>
+  Date:   Tue Sep 13 18:42:32 2022 -0300
+  
+      Primer commit del proyecto
