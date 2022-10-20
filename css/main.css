@@ -1,6 +1,5 @@
 /* MAPS SON VARIABLES CON COLECCION DE VARIABLES */
 /* LO PRIMERO QUE HAY QUE HACER ES DECLARAR EL MAPA */
-/* $carousel-control-color:             $white; */
 .titulo, .subtitulo {
   color: #000;
   background-color: #760606;
@@ -110,8 +109,6 @@ img {
 .enlaces a {
   color: whitesmoke;
   background-color: #2B3A67;
-  border-top-left-radius: radius;
-  border-top-left-radius: 40PX 40px;
   border-color: black; }
 
 .redes {
