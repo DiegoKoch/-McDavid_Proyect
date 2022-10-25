@@ -10,56 +10,6 @@
 
 .redes{
     margin-top: 10px;
-    padding: 5px;
+    padding-left: 5px;
 }
 
-/* .grid-Index{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "subtitulo subtitulo subtitulo"
-    "foto1 foto2 foto3"
-    "video video video"
-    "footer footer footer";
-}
-
-.grid-Index h1{
-    grid-area: titulo;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid-Index header{
-    grid-area: subtitulo;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-
- .foto1{
-    grid-area: foto1;
-
-}
-
-.foto2{
-    grid-area: foto2;
-}
-
-.foto3{
-    grid-area: foto3;
-  
-} 
-
-.video{
-    grid-area: video;
-}
-
-.grid-Index footer{
-    grid-area: footer;
-    /* background-color: aqua; 
-}
-
- */

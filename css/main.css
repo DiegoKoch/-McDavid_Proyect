@@ -4,8 +4,9 @@
   background-color: #760606;
   justify-content: center;
   font-size: 30px;
-  padding: 1rem;
-  font-style: italic; }
+  padding: 0.5rem;
+  font-style: italic;
+  margin-bottom: 0; }
 
 .subtitulo {
   background-color: #2B3A67;
@@ -52,7 +53,10 @@
   gap: 20px;
   padding: 20px;
   grid-auto-flow: dense;
-  grid-template-areas: "foto1"  "foto2" "foto3"  "foto4"; }
+  grid-template-areas: "foto1" 
+ "foto2"
+ "foto3" 
+ "foto4"; }
 
 img {
   height: auto;
@@ -112,58 +116,8 @@ img {
 
 .redes {
   margin-top: 10px;
-  padding: 5px; }
+  padding-left: 5px; }
 
-/* .grid-Index{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "subtitulo subtitulo subtitulo"
-    "foto1 foto2 foto3"
-    "video video video"
-    "footer footer footer";
-}
-
-.grid-Index h1{
-    grid-area: titulo;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid-Index header{
-    grid-area: subtitulo;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-
- .foto1{
-    grid-area: foto1;
-
-}
-
-.foto2{
-    grid-area: foto2;
-}
-
-.foto3{
-    grid-area: foto3;
-  
-} 
-
-.video{
-    grid-area: video;
-}
-
-.grid-Index footer{
-    grid-area: footer;
-    /* background-color: aqua; 
-}
-
- */
 * {
   margin: 0;
   padding: 0; }
@@ -218,7 +172,9 @@ body {
   color: white; }
 
 .logo {
-  background-color: black; }
+  background-color: black;
+  align-items: flex-start;
+  padding-left: 0; }
 
 .slide {
   align-items: center; }

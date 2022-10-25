@@ -4,6 +4,14 @@ $enable-shadows: true;
 $btn-padding-y: 1rem;
 $btn-padding-x: 2rem;
 $btn-border-radius: 1rem;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1000px,
+  xl: 1300px,
+  xxl: 1500px
+);
 
 $sizes:(
     celular: 574px,
@@ -23,7 +31,7 @@ $colores:(
  $estilos:(
     alineacion: center,
     fuente: 30px,
-    padding: 1rem,
+    padding: 0.5rem,
     estilo:italic
  );
 
@@ -33,7 +41,8 @@ $colores:(
     justify-content: map-get($map: $estilos, $key:alineacion );
     font-size: map-get($map: $estilos, $key:fuente );
     padding: map-get($map: $estilos, $key: padding );
-    font-style: map-get($map: $estilos, $key: estilo)
+    font-style: map-get($map: $estilos, $key: estilo);
+    margin-bottom: 0
 }
 
 .subtitulo{
